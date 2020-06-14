@@ -1,0 +1,37 @@
+.logo {
+    margin-left: 15px;
+}
+
+nav {
+    background-color:#eefdfd;
+    color: black;
+}
+
+.logo-text {
+    font-family: 'Pacifico', cursive;
+}
+
+.btn-nav {
+    border: 1px solid #d1fafa;
+    border-radius: 15px;
+    background-color: #d1fafa;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+a button:hover {
+    background-color: #76efef;
+}
+
+.btn-nav:focus {
+    outline: none;
+}
+
+.hyperlink {
+    color: black;
+    text-decoration: none;
+}
+
+.hyperlink:hover {
+    color: #5fecec; 
+}
