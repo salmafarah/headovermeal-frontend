@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Head Over Meals</title>
     <link rel="icon" href="https://imgur.com/nITHcoU.jpg">
-    <link rel="stylesheet" href="homepage.css"> 
+    <link rel="stylesheet" href="homepage.css">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -13,28 +13,28 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-light justify-content-center">
-        <a class="navbar-brand logo" href="#">
-            <img src="https://imgur.com/6XHgF72.jpg" alt="logo" height="60" width="50" class="d-inline-block align-bottom">
-            <h1 class="d-inline-block  align-bottom logo-text"> Head Over Meals .Co</h1>
+    <nav class="navbar navbar-light justify-content-center sticky-top">
+        <a class="navbar-brand img-fluid" href="#">
+            <img src="https://imgur.com/6XHgF72.jpg" alt="logo" height="60" width="50" class="align-bottom">
+            <h1 class="d-inline-block  align-bottom logo-text">Head Over Meals .Co</h1>
         </a>
         <ul class="nav">
             <li class="nav-item disabled">
-                <a class="nav-link hyperlink" href="#">Menu</a>
+                <a class="nav-link hyperlink" href="#"><h5 class="p-2">Menu</h5></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link hyperlink" href="#">Safety Protocol</a>
+              <a class="nav-link hyperlink" href="#"><h5 class="p-2">Saftey Protocol</h5></a>
             </li>
             <li class="nav-item">
-               <a href=#> <button type="button" class="btn-nav">Place Order</button> </a>
+               <a class="nav-link hyperlink" href=#><button type="button" class="btn-nav p-2"><h5>Place Order</h5></button></a>
             </li>
             <li class="nav-item">
-              <a href=#><img src="" alt="ig logo"></a>
+              <a class="nav-link hyperlink" href="https://www.instagram.com/headovermeals.co/"><img src="https://imgur.com/c2fhLIO.jpg" alt="ig logo" width="50" height="50" class="p-2"></a>
            </li>
         </ul>
     </nav>
     
-    <div class="row story">
+    <div class="row mt-5 mb-5">
         <div class="col-sm-6">
           <div class="story-image">
             <div class="card-body">
@@ -43,7 +43,7 @@
           </div>
         </div>
         <div class="col-sm-6 ">
-          <div class="card story-card">
+          <div class="card story-card mr-md-5">
             <div class="card-body">
               <h1 class="card-title text-center"><span> My Story</span></h1>
               <p class="card-text">Since the age of 14, I have wanted nothing more than my own restaurant, and here I am 8 years later turning that dream into a reality. My goal is to bring you the best and most authentic Somali cuisine along with the best possible prices. There will be various flavours and dishes available to you, but also the option to customise and mix & match menu items is available to you as well.</p>
@@ -56,19 +56,17 @@
         </div>
       </div>
 
-      <div class="row food-card">
+      <div class="row mb-5">
       <div class="col-sm-6">
-        <div class="story-image">
-          <div class="card-body">
-            <h1 class="card-title food-title d-inline-block align-bottom">Our Food</h1>
-            <img src="https://imgur.com/EXWITvw.jpg" height="150" width="150">
+          <div class="card-body text-center">
+            <h1 class="card-title food-title d-inline-block align-bottom mr-lg-3">Our Food</h1>
+            <img src="https://imgur.com/EXWITvw.jpg" height="150" width="150" class="align-bottom">
           </div>
         </div>
-      </div>
       <div class="col-sm-6">
-        <div class="food-carousel">
+        <div class="food-carousel img-fluid mr-md-5">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner food-carousel">
+                <div class="carousel-inner food-carousel mb-3">
                 <div class="carousel-item active">
                     <img src="https://imgur.com/7n3YVVx.jpg" class="d-block w-100" alt="...">
                 </div>
@@ -95,9 +93,12 @@
       </div>
    </div>
 
+
 <footer>
+  <div class="m-2">
     <p> All rights are reserved by HeadOverMeals.Co</p>
-    <p> Contact us at: </p>
-      </footer> 
+    <button type="button" class="btn-nav">Contact Us:</button>
+    </div>
+</footer> 
 </body>
 </html>

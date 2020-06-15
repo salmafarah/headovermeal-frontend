@@ -36,19 +36,6 @@ a button:hover {
     color: #5fecec; 
 }
 
-.story {
-    margin-top: 40px;
-    outline: none;
-}
-
-.story-card {
-    box-shadow: 5px 10px 8px 10px #F0F0F0;
-    margin-right: 50px;
-}
-
-span {
-    font-family: 'Pacifico', cursive;
-}
 
 footer {
     position: fixed;
@@ -65,31 +52,15 @@ footer p {
     margin: 10px;
 }
 
-.food-card {
-    margin-top: 50px;
-}
-
-.w-100 {
-    width: 100% !important;
-    height: 50vh;
-}
-
-.food-carousel {
-    margin-right: 50px;
-    margin-bottom: 100px;
-    border-radius: 5px;
-
-}
-
-
-.food-title {
-    margin-left: 45px;
-    margin-top: 70px;
-    font-size: 85px;
+.menu-title {
     font-family: 'Pacifico', cursive;
-    margin-right: 20px;
+    font-size: 65px;
 }
 
-.story-text {
-    background-color:#eefdfd;
+.menu-subtitle {
+    font-family: 'Pacifico', cursive;
+}
+
+.money {
+    font-size: 20px;
 }

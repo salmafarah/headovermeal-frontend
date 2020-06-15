@@ -1,7 +1,3 @@
-.logo {
-    margin-left: 15px;
-}
-
 nav {
     background-color:#eefdfd;
     color: black;
@@ -15,8 +11,6 @@ nav {
     border: 1px solid #d1fafa;
     border-radius: 15px;
     background-color: #d1fafa;
-    padding: 5px;
-    margin-left: 20px;
 }
 
 a button:hover {
@@ -37,13 +31,11 @@ a button:hover {
 }
 
 .story {
-    margin-top: 40px;
     outline: none;
 }
 
 .story-card {
     box-shadow: 5px 10px 8px 10px #F0F0F0;
-    margin-right: 50px;
 }
 
 span {
@@ -52,22 +44,11 @@ span {
 
 footer {
     position: fixed;
-    left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
-    color: white;
     background-color:#eefdfd;
     color: black;
  }
-
-footer p {
-    margin: 10px;
-}
-
-.food-card {
-    margin-top: 50px;
-}
 
 .w-100 {
     width: 100% !important;
@@ -75,21 +56,11 @@ footer p {
 }
 
 .food-carousel {
-    margin-right: 50px;
-    margin-bottom: 100px;
     border-radius: 5px;
-
 }
 
 
 .food-title {
-    margin-left: 45px;
-    margin-top: 70px;
     font-size: 85px;
     font-family: 'Pacifico', cursive;
-    margin-right: 20px;
-}
-
-.story-text {
-    background-color:#eefdfd;
 }
